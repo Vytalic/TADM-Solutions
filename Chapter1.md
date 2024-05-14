@@ -53,7 +53,7 @@ between a and b is not the route with the fewest turns.*
 #### Thought-Process
 1) Simplify the goal: Shortest route from a -> b does not have the fewest turns.
 2) Counterexample: A longer route a -> c -> b has fewer turns.
-3) Counterstatement: Just because a route has fewer turns does not mean it is the shortest route.
+3) Counterargument: Just because a route has fewer turns does not mean it is the shortest route.
 4) Conclusion: To design a route from point a to point b so that the shortest route between them was not the\
 one with the fewest turns, I started by creating another problem. Instead of designing a short route that\
 did not have the fewest turns (a to b), I created a longer route (a to c to b) that had fewer turns. Then,\
