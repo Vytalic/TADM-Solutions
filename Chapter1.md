@@ -46,6 +46,25 @@ To show that a * b can be less than min(a,b), I just need to find two numbers th
 ____________________________________________________________________________________________________________________________
 
 
+### Question 1-3:
+*Design/draw a road network with two points a and b such that the fastest route\
+between a and b is not the shortest route.*
+
+#### Thought-Process
+1) Simplify the goal: The fastest route from a -> b is not the shortest.
+2) Counterexample: A longer route a -> c -> b is faster.
+3) Counterargument: Shorter routes are not always fastest.
+4) Conclusion: To create a road network where the fastest route between a and b\
+was not the shortest, I had to create a route that was longer, yet faster. To\
+justify this, I could either make the speed limits of the shorter route very slow\
+in comparison to the speed limits on the longer route. I could make the shorter route\
+have to wait on a train. But basically, either the shorter route has to endure some\
+time penalties and/or the longer route must somehow be take less time. Maybe the shortest\
+route is all uphill at an 89-degree incline and the longer route has a more gradual incline.
+
+____________________________________________________________________________________________________________________________
+
+
 ### Question 1-4:
 *Design/draw a road network with two points a and b such that the shortest route\
 between a and b is not the route with the fewest turns.*
