@@ -18,7 +18,8 @@ Provide Counterexample: Let a = -1, b = -2;\
 Conclusion:             To prove that a + b can indeed be less than min(a,b), we disproved the opposite of that statement.\
                         By providing a counterexample, when a = -1 and b = -2, this showed that a + b is not always greater\
                         than or equal to min(a,b). And since it is not always greater than or equal to min(a,b), this meant\
-                        that our original statement "a + b can be less than min(a,b)" is true.
+                        that our original statement "a + b can be less than min(a,b)" is true.\
+ ____________________________________________________________________________________________________________________________
 
 
 ### Question 1-2:
