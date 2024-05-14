@@ -6,14 +6,14 @@
 
 #### Reasoning
 *Assume the opposite:   There are no values for a,b where a+b < min(a,b).\
-Translation:            a+b $$\geq$$ min(a,b); I am saying "a + b is always greater than or equal to min(a,b).\
+Translation:            a+b $$\geq$$ min(a,b); I am saying "a + b is always greater than or equal to min(a,b)."\
 Provide Counterexample: Let a = -1, b = -2;\
                         a + b = -1 + -2 = -3\
                         min(a,b) = min(-1,-2) = -2\
                         __________________________\
-                        a + b $$\geq$$ min(a,b)\
-                        -3 $$\geq$$ -2; NOT TRUE\
-                        -3 $$\lt$$ -2\
+                        a + b $ \geq $ min(a,b)\
+                        -3 $ \geq $ -2; NOT TRUE\
+                        -3 $ \lt $ -2\
                         
 Conclusion:             To prove that a + b can indeed be less than min(a,b), we disproved the opposite of that statement.\
                         By providing a counterexample, when a = -1 and b = -2, this showed that a + b is not always greater\
